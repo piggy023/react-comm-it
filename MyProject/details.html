@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+        <meta charset="utf-8">
+        <title>SpaRENT</title>
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/details.css" rel="stylesheet">
+     </head>
+
+     <body>
+        <!-- header -->
+        <header>
+            <div id="header-logo"></div>
+            <div id="header-search">
+                <input id="header-search-text" type="text"  placeholder="search">
+                <input id="header-search-button" type="button">
+            </div>
+        </header>
+
+        <!-- main -->
+        <main>
+            <nav>
+                <a class="on" href="index.html">Home</a>
+                <a href="myspare.html">My Spare</a>
+                <a href="myrent.html">My Rent</a>
+            </nav>
+            <div id="main">
+                <div id="details-images">
+                    <img class="details-images-image" src="./images/MountainBike.jpeg" />
+                </div>
+
+                <div id="details-info">
+                    <div class="details-info-item">Mountain Bike</div>
+                    <div class="details-info-item">26 inch wheels</div>
+                    <div class="details-info-item">$10/per day</div>
+                    <div class="details-info-item">$10/per day</div>
+                    <div class="details-info-item">$10/per day</div>
+                    <div class="details-info-item">$10/per day</div>
+                    <div class="details-info-item">$10/per day</div>
+                    <div class="details-info-item">$10/per day</div>
+                    <div class="details-info-item">$10/per day</div>
+                </div>
+
+                <div id="details-order">
+                    <form class="details-order-form">
+                        <div>
+                            <label>Choose Date</label>
+                        </div>
+                        <div>
+                            <input type="date"/>
+                        </div>
+
+
+                        <div>
+                            <label>Choose Days</label>
+                        </div>
+                        <div>
+                            <input type="number" min="0" placeholder="select day"/>
+                        </div>
+
+         
+                        <div>
+                            <input class="details-order-submit" type="submit" value="Order">
+                        </div>
+
+          
+                    </form>
+
+                </div>
+            </div>
+        </main>
+
+        <!-- footer -->
+        <footer>
+            <span>Copywright Sparent.com, 2022.</span>
+        </footer>
+    </body>
+</html>

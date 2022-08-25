@@ -1,0 +1,35 @@
+#main-container {
+    overflow-y:scroll;
+}
+
+#main-container-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.item  {
+    width: 200px;
+    background-color: #eeeeee;
+    margin: 20px;
+}
+
+.item > a {
+    text-decoration: none;
+    color: #222222;
+}
+
+
+.item-image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+}
+
+.item-name, .item-describe, .item-price {
+    padding: 2px 10px;
+}
